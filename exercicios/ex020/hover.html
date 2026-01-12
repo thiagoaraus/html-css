@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de hover</title>
+    <style>
+        div:hover{
+            color: blue;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: brown;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Sobre hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Texto
+        <p>Texto oculto</p>
+    </div>
+    
+</body>
+</html>

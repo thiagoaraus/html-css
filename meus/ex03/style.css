@@ -1,0 +1,43 @@
+@charset "UTF/8";
+
+*{
+    background-image: linear-gradient(to right,#96a4b3,#DEEFE7);
+
+}
+
+
+
+
+body{
+    background-image: linear-gradient(to right,#96a4b3,#DEEFE7);
+
+}
+
+
+
+
+
+h1{
+    text-align: center;
+}
+
+
+
+h2{
+
+}
+
+
+
+
+h6{
+
+}
+
+
+
+
+p{
+   width: 600px;
+
+}
