@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: burlywood;
+}
+
+main{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+main > h1{
+    text-align: center;
+}
+
+main > div.um{
+    text-align: center;   
+}
+
+div.um{
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+
+div.um:hover{
+    background-color: brown;
+}
+
+div.dois{
+    text-align: center;
+}
+
+
+div.dois > p{
+    display: none;
+}
+
+div.dois:hover >p{
+    display: block;
+    color: brown;
+}

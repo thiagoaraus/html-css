@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: rgb(100, 203, 205);
+    --cor1: rgb(123, 123, 222);
+    --cor2: rgb(1, 34, 92);
+    --cor3: rgba(123, 123, 222, 0.436);
+    --cor4: #c5ebd6;
+    --cor5: #2fa866;
+    --cor6: green;
+    --cor7: #1a5c37;
+  
+    --font1: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --font2:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: var(--cor4);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor7));
+    padding-bottom: 41px;
+}
+
+header > h1{
+    padding: 20px;
+    color: white;
+    text-shadow: 7px 7px 15px rgba(0, 0, 0, 0.564);
+    font-family: var(--font1);
+    font-weight: normal;
+    
+}
+
+nav{
+    background-color: var(--cor6);
+    padding: 5px;  
+    margin-bottom: 20px; 
+}
+
+nav > a{
+    color: white;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    border-radius: 15px
+}
+
+main > h1{
+    font-family: var(--font2);
+    color: var(--cor7);
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-shadow: 5px 5px 12px rgba(0, 0, 0, 0.252);
+}
+
+main img{
+    width: 16px;
+}
+
+main > ul > li{
+    list-style-position: inside;
+    padding-bottom: 15px;
+    display: block;
+}
+
+main > ul > li > a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 17px;
+}
+
+main > ul > li > a:hover{
+    color: white;
+    background-color: #2fa866;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+main > p#unico{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+div{
+    text-align: center;
+    padding: 20px;
+    color: rgba(0, 0, 255, 0.411);
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+}
